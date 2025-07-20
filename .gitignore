@@ -1,0 +1,25 @@
+# Ignore the virtual environment folder
+bkenv/
+
+# Ignore Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore dataset files (optional: if you don't want to upload CSVs)
+data/*.csv
+
+# VS Code settings (optional)
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log or temp files (if any)
+*.log
+*.tmp
