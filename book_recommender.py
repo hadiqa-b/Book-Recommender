@@ -60,7 +60,7 @@ def _(mo):
         r"""
     Training Completed!
 
-    Next I will create a function that takes in the description of a book and returns a list of books similart to it and feed it the description of my favourite book of ALL time **The Covenant of Water** by *Abraham Verghese*.
+    Next I will create a function that takes in the description of a book and returns a list of books similar to it and feed it the description of my favourite book of ALL time **The Covenant of Water** by *Abraham Verghese*.
 
     **Description**: Spanning the years 1900 to 1977, The Covenant of Water is set in Kerala, on India’s Malabar Coast, and follows three generations of a family that suffers a peculiar affliction: in every generation, at least one person dies by drowning—and in Kerala, water is everywhere. At the turn of the century, a twelve-year-old girl from Kerala's Christian community, grieving the death of her father, is sent by boat to her wedding, where she will meet her forty-year-old husband for the first time. From this unforgettable new beginning, the young girl—and future matriarch, Big Ammachi—will witness unthinkable changes over the span of her extraordinary life, full of joy and triumph as well as hardship and loss, her faith and love the only constants.
     """
