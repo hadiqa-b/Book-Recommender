@@ -41,7 +41,7 @@ def _(pl):
 def _(mo):
     mo.md(
         r"""
-    Since this is a pretty clean dataset that I pulled from Kaggle, we can dive right in. Firstly, I will try to find similar books based on the book descriptions. To do this I will train a sentence transformer. 
+    Since this is a pretty clean dataset, we can dive right in. I will try to find similar books based on the book descriptions. To do this I will train a sentence transformer. 
 
     Training Started ... (Approx. 2 minutes)
     """
