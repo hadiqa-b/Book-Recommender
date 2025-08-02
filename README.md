@@ -62,7 +62,7 @@ pip install -r requirements.txt
 3. Launch the marimo app (if using .py notebook):
 
 ```bash
-marimo run your_notebook.py
+marimo run book_recommender.py
 ```
 4. You can edit the notebook as well:
 ```bash
