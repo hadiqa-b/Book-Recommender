@@ -10,7 +10,9 @@ def _(mo):
         r"""
     # Book Recommender
     Hi there! 👋
-    This is me testing out the marimo framework with a bookish dataset I found on Kaggle. The dataset contains book titles and descriptions, and I will be using it to build a simple book recommender system.
+    This is me testing out the marimo framework with a bookish dataset I found on Kaggle. The dataset contains book titles and descriptions, and I will be using it to build a simple book recommender system. 
+    
+    Here's a sample of what the dataset looks like:
     """
     )
     return
