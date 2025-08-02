@@ -16,7 +16,7 @@ def _():
 @app.cell
 def _(pl):
     # Loading DataFrame
-    data = pl.read_csv('data/book.csv')
+    data = pl.read_csv('data/book.csv') #Adjust path as needed
     titles = data["title"].to_list()
     descriptions = data["description"].to_list()
     data.head()
