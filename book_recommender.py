@@ -3,6 +3,7 @@ import marimo
 __generated_with = "0.14.15"
 app = marimo.App(width="medium", app_title="Book Recommender")
 
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(
@@ -13,6 +14,7 @@ def _(mo):
     """
     )
     return
+
 
 @app.cell
 def _():
@@ -39,7 +41,7 @@ def _(mo):
         r"""
     Since this is a pretty clean dataset that I pulled from Kaggle, we can dive right in. Firstly, I will try to find similar books based on the book descriptions. To do this I will train a sentence transformer. 
 
-    Training Started ... (Aprrox. 2 minutes)
+    Training Started ... (Approx. 2 minutes)
     """
     )
     return
@@ -92,12 +94,9 @@ def _(recommend_from_input_description):
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(
-        r"""
-    Try it yourself! Enter a book description below and see the recommendations based on it.
-    """
-    )
+    mo.md(r"""Try it yourself! Enter a book description below and see the recommendations based on it.""")
     return
+
 
 @app.cell
 def _(mo):
