@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.14.15"
-app = marimo.App(width="medium")
+app = marimo.App(width="medium", app_title="Book Recommender")
 
 
 @app.cell
@@ -25,7 +25,7 @@ def _(pl):
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""Since this is a pretty clean dataset that I pulled from Kaggle, I can dive right into the juicy stuff. Firstly, I will try to find similar books based on the book descriptions. For this purpose I will use word embeddings to extract the semantics of the text and then use cosine similarity to find the closeness of each book.""")
+    mo.md(r"""Since this is a pretty clean dataset that I pulled from Kaggle, I can dive right into the juicy stuff. Firstly, I will try to find similar books based on the book descriptions. To do this I will train a sentence transformer.""")
     return
 
 
@@ -34,6 +34,12 @@ def _(SentenceTransformer, descriptions):
     model = SentenceTransformer("all-MiniLM-L6-v2")
     dataset_embeddings = model.encode(descriptions, convert_to_tensor=True, show_progress_bar=True)
     return dataset_embeddings, model
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""Next I will create a function that takes in the description of a book and returns a list of books similart to it.""")
+    return
 
 
 @app.cell
